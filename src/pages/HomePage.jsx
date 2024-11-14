@@ -1,12 +1,11 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Brain, MessageSquare, Clock, Award, ArrowRight, Sparkles } from 'lucide-react';
+import { Brain, MessageSquare, Clock, ArrowRight, Sparkles } from 'lucide-react';
 
 const HomePage = () => {
     return (
         <div className="min-h-screen bg-gradient-to-b from-background to-muted">
-            {/* Hero Section */}
             <div className="relative overflow-hidden">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
                     <div className="text-center">
@@ -30,7 +29,6 @@ const HomePage = () => {
                 </div>
             </div>
 
-            {/* Features Section */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
                 <h2 className="text-3xl font-bold text-center mb-12 text-foreground">Why Choose Our Platform?</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
