@@ -8,7 +8,7 @@ import { FcGoogle } from 'react-icons/fc';
 
 const SignUpForm = () => {
   return (
-    <div className="flex justify-center items-center h-screen bg-[url('https://static.vecteezy.com/system/resources/previews/027/231/616/non_2x/illustration-graphic-of-aesthetic-colorful-background-template-with-minimalist-pastel-colors-and-abstract-fluid-shapes-simple-and-minimalist-background-template-vector.jpg')] bg-cover bg-center">
+    <div className="flex justify-center items-center h-screen" style={{ backgroundImage: 'url(/assets/image1.jpg)' }}>
       <Card className="w-full max-w-md">
       <CardHeader>
         <CardTitle>Sign up to Dribbble</CardTitle>
