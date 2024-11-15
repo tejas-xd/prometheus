@@ -4,7 +4,6 @@ import SignUpForm from "./authPages/SignUpForm";
 import HomePage from "./pages/HomePage";
 import LoginForm from "./authPages/LoginForm";
 import InterviewForm from "./pages/components/InterviewForm";
-import Damn from "./pages/components/Damn";
 
 const App = () => {
   return(

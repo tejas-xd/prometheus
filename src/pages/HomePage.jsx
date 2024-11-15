@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Brain, MessageSquare, Clock, Award, ArrowRight, Sparkles } from 'lucide-react';
+import { Brain, MessageSquare, Clock, ArrowRight, Sparkles } from 'lucide-react';
 import Navbar from './components/Navbar';
 import { NavLink } from 'react-router-dom';
 const HomePage = () => {

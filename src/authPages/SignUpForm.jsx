@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { FcGoogle } from 'react-icons/fc';
 
 
 const GoogleIcon = () => (
@@ -22,7 +23,7 @@ const SignUpForm = () => {
       </CardHeader>
       <CardContent>
         <Button variant="outline" className="w-full bg-black text-white hover:bg-black hover:text-white hover:opacity-80">
-        <GoogleIcon/>
+        <FcGoogle size={24} />
           Sign up with Google
         </Button>
         <p className="text-center my-4">or</p>
@@ -33,7 +34,7 @@ const SignUpForm = () => {
         <Button variant="outline" className="w-full">
           Submit
         </Button>
-        <div className="text-sm text-gray-500 mt-4">
+        <div className="text-sm text-gray-500 mt-4 text-center">
           By creating an account you agree with our{' '}
           <a href="#" className="text-primary-600 hover:underline">
             Terms of Service
@@ -48,7 +49,7 @@ const SignUpForm = () => {
           </a>
           .
         </div>
-        <p className="text-sm text-gray-500 mt-4">
+        <p className="text-sm text-gray-500 mt-4 text-center">
           Already have an account?{' '}
           <a href="#" className="text-primary-600 hover:underline">
             Sign In
