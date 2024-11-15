@@ -5,7 +5,6 @@ import { Input } from '@/components/ui/input';
 import { FcGoogle } from 'react-icons/fc';
 
 
-
 const SignUpForm = () => {
   return (
     <div className="flex justify-center items-center h-screen" style={{ backgroundImage: 'url(/assets/image1.jpg)' }}>
