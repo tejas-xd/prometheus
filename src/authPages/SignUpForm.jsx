@@ -46,7 +46,7 @@ const SignUpForm = () => {
               type="button"
               variant="outline" 
               className="w-full bg-black text-white hover:bg-black hover:text-white hover:opacity-80"
-              onClick={handleGoogleSignUp}
+              onClick={firebase.signUpWithGoogle}
             >
               <FcGoogle size={24} />
               Sign up with Google
